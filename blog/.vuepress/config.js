@@ -16,7 +16,7 @@ module.exports = {
         displayAllHeaders: true,
 
         // 显示最后一次更新时间
-        lastUpdated: 'Last Update:',
+        lastUpdated: 'Last Update',
 
         // 显示上一页跳转链接
         prev: true,
