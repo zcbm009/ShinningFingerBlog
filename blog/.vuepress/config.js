@@ -45,6 +45,27 @@ module.exports = {
         // 侧边栏链接，默认其标题显示为其文章的标题
         sidebar: [
             {
+                title: 'Flutter',
+                path: '/Flutter/',
+                collapsable: true, // 是否可以折叠
+                // sidebarDepth: 1,
+                children: [
+                    // '/',
+                    '/Flutter/1',
+                    '/Flutter/2'
+                ]
+            },
+            {
+                title: 'DOL',
+                path: '/DeferencesOfLanguage/',
+                collapsable: true, // 是否可以折叠
+                // sidebarDepth: 1,
+                children: [
+                    // '/',
+                    '/DeferencesOfLanguage/1'
+                ]
+            },
+            {
                 title: 'c',
                 path: '/c/',
                 collapsable: true, // 是否可以折叠
@@ -104,7 +125,8 @@ module.exports = {
                 collapsable: true, // 是否可以折叠
                 // sidebarDepth: 1,
                 children: [
-                    '/'
+                    '/Japanese/1',
+                    '/Japanese/2'
                 ]
             },
             {
