@@ -144,7 +144,8 @@ module.exports = {
                 collapsable: true, // 是否可以折叠
                 // sidebarDepth: 1,
                 children: [
-                    ''
+                    '/else/',
+                    '/else/1',
                 ]
             },
             
